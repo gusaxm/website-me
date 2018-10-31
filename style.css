@@ -1,0 +1,132 @@
+body {
+    height: 100%;
+    background-color: #1e272e;
+}
+header {
+    background-color: #3c40c6;
+    color: #ffffff;
+    height: 5em;
+    margin-left: 4em;
+    margin-right: 4em;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+.content {
+    background-color: #575fcf;
+    height: 30em;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+.contentimg{
+    max-height: 500px;
+    max-width: 500px;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content img {
+    height: 100%;
+    width: 100%;
+}
+.content iframe {
+    margin-left: 5em;;
+    margin-right: 5em;
+}
+div.menu {
+    padding-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em;
+    overflow: auto;
+    
+}
+div.menu ul li a:hover {
+    background-color: #1e272e;
+    color: white;
+    transition-duration: 1s;
+}
+div.menu ul {
+    display: block;
+    list-style-type: none;
+}
+div.menu a {
+    background-color: #3c40c6;
+    color: #ffffff;
+    display: block;
+    width: 10em;
+    height: 1.5em;
+    float: left;
+    margin-right: 0.5em;
+    text-decoration: none;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-top: 0.5em;
+}
+div.contact {
+    background-color: #3c40c6; 
+    color: #ffffff; 
+    height: 20em; 
+    margin-left: 8em; 
+    margin-right: 8em;
+    margin-top: 1em;
+}
+img.socialicon {
+    float: left; 
+    margin-left: 1em;
+    margin-top: 1em;
+    max-height: 100px; 
+    max-width: 100px;
+    height: 60%; 
+    width: 60%;
+}
+footer {
+    background-color: #3c40c6;
+    color: #ffffff;
+    height: 4em;
+    margin-left: 4em;
+    margin-right: 4em;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+<!-- Small screen -->
+@media screen and (max-width: 550px) {
+    body {
+        background-color: green;
+        transition: 2s;
+        margin: 0;
+        height: 100%;
+    }
+    header {
+        transition: 2s;
+        height: 5em;
+        margin-left: 2em;
+        margin-right: 2em;
+        margin-top: 1em;
+        min-width: 15em;
+        max-width: 35em;
+    }
+    .content {
+        transition: 2s;
+        height: 30em;
+        margin-left: 2em;
+        margin-right: 2em; 
+        min-width: 15em;
+        max-width: 35em;
+    }
+    footer {
+        transition: 2s;
+        height: 4em;
+        margin-left: 2em;
+        margin-right: 2em;
+        min-width: 15em;
+        max-width: 35em;
+    }
+}
